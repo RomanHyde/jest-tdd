@@ -1,13 +1,4 @@
-class Converter {
-    constructor(val, currency) {
-        this.currency = currency;
-        this.val = val;
-    }
+const Converter = require("./converter");
 
-    convert(currency) {
-        return undefined;
-    }
-}
-
-const gbp = new Converter(1, "gbp");
+const gbp = new Converter(4, "gbp");
 console.log(gbp);
